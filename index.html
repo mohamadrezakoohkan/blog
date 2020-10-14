@@ -6,14 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammadreza</title>
     <script src="script/main.js"></script>
-    <script src="script/w3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/navigationBar.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navigationBar.css" />
 </head>
 
 <body>
-    <div w3-include-html="view/navigationBar.html"></div>
-    <script src="script/main.js"></script>
+    <header>
+        <img class="logo">
+        <nav class="navigationBar">
+            <ul class="navigationBarItems">
+                <li class="barButtonItem">
+                    <div class="barButtonItemContent">
+                        <a class="title" href="#" onclick="selectUnderline(event)">
+                            Home
+                        </a>
+                        <span class="underline" id="visible"></span>
+                    </div>
+                </li>
+                <li class="barButtonItem">
+                    <div class="barButtonItemContent">
+                        <a class="title" href="#" onclick="selectUnderline(event)">
+                            Services
+                        </a>
+                        <span class="underline"></span>
+                    </div>
+                </li>
+                <li class="barButtonItem">
+                    <div class="barButtonItemContent">
+                        <a class="title" href="#" onclick="selectUnderline(event)">
+                            About
+                        </a>
+                        <span class="underline"></span>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
 </body>
 
 </html>
