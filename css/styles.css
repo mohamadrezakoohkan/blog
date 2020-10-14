@@ -1,0 +1,28 @@
+:root {
+    --margin: 16px;
+    --negativeMargin: -25px;
+    --border: 3px;
+    --singlePixel: 2px;
+    --logoSize: 60px;
+    --logoCornerRadius: 15px;
+    --paddingRight: 10px;
+    --animationDuration: .3s;
+    --fontName: "SF Pro";
+    --backgroudColor: #fcfcfc;
+    --activeColor: #007bff;
+    --normalColor: #1c1c1e;
+    --placeholderColor: #f0f1f5;
+    --logoImage: url("../static/image/swiftui-96x96.png")
+}
+
+@font-face {
+    font-family: "SF Pro";
+    font-weight: 400;
+    src: url("../static/font/sanfranciscodisplay-regular-webfont.woff");
+}
+
+html {
+    font-family: var(--fontName);
+    background-color: var(--backgroudColor);
+    margin: var(--margin);
+}

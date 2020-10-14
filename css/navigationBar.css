@@ -1,0 +1,72 @@
+  .logo {
+      float: left;
+      height: var(--logoSize);
+      border-radius: var(--logoCornerRadius);
+      color: var(--normalColor);
+      content: var(--logoImage);
+      transition: var(--animationDuration) all;
+  }
+  
+  .logo:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0.5em 3rem -1rem var(--normalColor);
+  }
+  
+  .navigationBar {
+      display: flex;
+      float: left;
+      margin-left: var(--margin);
+      border-left: var(--singlePixel) solid var(--placeholderColor);
+  }
+  
+  .navigationBarItems {
+      margin-left: var(--negativeMargin);
+  }
+  
+  .barButtonItemContent {
+      display: inline;
+      position: relative;
+      padding-bottom: var(--margin);
+      transition: var(--animationDuration) all;
+  }
+  
+  .underline {
+      opacity: 0;
+      display: inline;
+  }
+  
+  .underline:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--normalColor);
+      height: var(--border);
+      border-radius: var(--border);
+  }
+  
+  #visible {
+      opacity: 1;
+      -webkit-transition: opacity var(--animationDuration) ease-in-out;
+      -moz-transition: opacity var(--animationDuration) ease-in-out;
+      transition: opacity var(--animationDuration) ease-in-out;
+  }
+  
+  .barButtonItem {
+      display: inline;
+      padding-right: var(--paddingRight);
+  }
+  
+  .barButtonItem .title {
+      color: var(--normalColor);
+      text-decoration: none;
+      font-size: 1.4em;
+      font-weight: bold;
+      border-radius: 3;
+      transition: var(--animationDuration) color;
+  }
+  
+  .barButtonItem .title:hover {
+      color: var(--activeColor);
+  }
