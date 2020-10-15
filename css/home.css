@@ -1,0 +1,34 @@
+.home {
+    width: 100%;
+    display: flex;
+}
+
+.split {
+    width: 50%;
+    align-content: center;
+}
+
+.standinLake {
+    width: 80%;
+    height: 100%;
+    content: var(--standinLakeImage);
+}
+
+.headline {
+    font-size: 3.0em;
+    font-weight: bold;
+}
+
+.subHeadline {
+    margin-top: var(--margin);
+    font-size: 2.5em;
+}
+
+#right {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    margin-left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
