@@ -1,6 +1,9 @@
 name: Refresh
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: "0 3 * * *" # Runs every day at 3am
 
