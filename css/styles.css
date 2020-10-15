@@ -12,7 +12,8 @@
     --activeColor: #007bff;
     --normalColor: #1c1c1e;
     --placeholderColor: #f0f1f5;
-    --logoImage: url("../static/image/swiftui-96x96.png")
+    --standinLakeImage: url("https://mohamadrezakoohkan.github.io/blog/static/image/standinLake.png");
+    --logoImage: url("https://mohamadrezakoohkan.github.io/blog/static/image/swiftui-96x96.png")
 }
 
 @font-face {
