@@ -13,8 +13,8 @@
     --errorColor: #FF3B30;
     --normalColor: #1c1c1e;
     --placeholderColor: #f0f1f5;
-    --standinLakeImage: url("static/image/standinLake.png");
-    --logoImage: url("static/image/swiftui-96x96.png")
+    --standinLakeImage: url("../static/image/standinLake.png");
+    --logoImage: url("../static/image/swiftui-96x96.png")
 }
 
 @font-face {
