@@ -3,13 +3,14 @@
     --negativeMargin: -25px;
     --border: 3px;
     --singlePixel: 2px;
-    --logoSize: 60px;
+    --itemSize: 60px;
     --logoCornerRadius: 15px;
     --paddingRight: 10px;
     --animationDuration: .3s;
     --fontName: "SF Pro";
-    --backgroudColor: #fcfcfc;
+    --backgroundColor: #fcfcfc;
     --activeColor: #007bff;
+    --errorColor: #FF3B30;
     --normalColor: #1c1c1e;
     --placeholderColor: #f0f1f5;
     --standinLakeImage: url("https://mohamadrezakoohkan.github.io/blog/static/image/standinLake.png");
@@ -24,6 +25,22 @@
 
 html {
     font-family: var(--fontName);
-    background-color: var(--backgroudColor);
+    background-color: var(--backgroundColor);
     margin: var(--margin);
+}
+
+.split {
+    width: 43%;
+    align-content: center;
+}
+
+.headline {
+    font-size: 3.0em;
+    font-weight: bold;
+    transition: var(--animationDuration) all;
+}
+
+.subHeadline {
+    padding-top: var(--margin);
+    font-size: 2.5em;
 }

@@ -1,4 +1,3 @@
-
 function selectUnderline(event) {
     var parent = event.target.parentElement;
     var underlines = getAllUnderlines()

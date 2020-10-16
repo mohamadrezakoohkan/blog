@@ -3,25 +3,10 @@
     display: flex;
 }
 
-.split {
-    width: 50%;
-    align-content: center;
-}
-
 .standinLake {
-    width: 80%;
+    width: 100%;
     height: 100%;
     content: var(--standinLakeImage);
-}
-
-.headline {
-    font-size: 3.0em;
-    font-weight: bold;
-}
-
-.subHeadline {
-    margin-top: var(--margin);
-    font-size: 2.5em;
 }
 
 #right {
@@ -31,4 +16,22 @@
     margin-left: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+#apps .button {
+    background-color: var(--activeColor);
+}
+
+#opensource .button {
+    background-color: var(--errorColor);
+}
+
+#opensource .button p,
+#apps .button p {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--backgroundColor);
 }

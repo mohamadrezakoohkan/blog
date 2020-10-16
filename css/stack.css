@@ -1,0 +1,23 @@
+.horizontalStack {
+    margin-top: var(--margin);
+}
+
+.horizontalStack .arrangedItem {
+    margin-top: var(--margin);
+    align-content: center;
+    height: 70px;
+}
+
+.horizontalStack .arrangedItem .button {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    border-radius: var(--logoCornerRadius);
+    transition: var(--animationDuration) all;
+}
+
+.horizontalStack .arrangedItem .button:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0.5em 3rem -1.6rem var(--normalColor);
+}

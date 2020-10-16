@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="static/image/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="static/image/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/stack.css" />
     <link rel="stylesheet" href="css/activityIndicator.css" />
     <link rel="stylesheet" href="css/navigationBar.css" />
     <link rel="stylesheet" href="css/home.css" />
@@ -45,7 +46,15 @@
                 <li class="barButtonItem">
                     <div class="barButtonItemContent">
                         <a class="title" href="#" onclick="selectUnderline(event)">
-                            Services
+                            Apps
+                        </a>
+                        <span class="underline"></span>
+                    </div>
+                </li>
+                <li class="barButtonItem">
+                    <div class="barButtonItemContent">
+                        <a class="title" href="#" onclick="selectUnderline(event)">
+                            OpenSource
                         </a>
                         <span class="underline"></span>
                     </div>
@@ -62,7 +71,7 @@
         </nav>
     </header>
 
-    <div class="home">
+    <div class="home" id="visible">
         <div class="split" id="left">
             <img class="standinLake" />
         </div>
@@ -72,6 +81,22 @@
             </div>
             <div class="subHeadline">
                 Welcome to my personal blog, keep exploring what did I do in apple ecosystem from 2016
+            </div>
+            <div class="horizontalStack">
+                <div class="arrangedItem" id="apps">
+                    <a class="button" href="#">
+                        <p>
+                            Explore developed apps
+                        </p>
+                    </a>
+                </div>
+                <div class="arrangedItem" id="opensource">
+                    <a class="button" href="#">
+                        <p>
+                            Explore my contributions to opensource
+                        </p>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
